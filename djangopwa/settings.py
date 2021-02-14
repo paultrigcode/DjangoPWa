@@ -168,21 +168,28 @@ PWA_APP_START_URL = '/'
 PWA_APP_STATUS_BAR_COLOR = 'default'
 PWA_APP_ICONS = [
     {
-        'src': 'static/images/splash.jpg',
-        'sizes': '160x160'
+        "src": "static/images/icons/android-chrome-192x192.png",
+       "sizes": "192x192",
+       "type": "image/png"
+    },
+     {
+      "src": "static/images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
 ]
-PWA_APP_ICONS_APPLE = [
-    {
-        'src': 'static/images/',
-        'sizes': '160x160'
-    }
-]
-PWA_APP_SPLASH_SCREEN = [
-    {
-        'src': 'static/images/splash.jpg',
-        'media': '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)'
-    }
-]
+
+# PWA_APP_ICONS_APPLE = [
+#     {
+#         'src': 'static/images/',
+#         'sizes': '160x160'
+#     }
+# ]
+# PWA_APP_SPLASH_SCREEN = [
+#     {
+#         'src': 'static/images/splash.png',
+#         'media': '(device-width: 750x) and (device-height: 1334px) and (-webkit-device-pixel-ratio: 2)'
+#     }
+# ]
 PWA_APP_DIR = 'ltr'
 PWA_APP_LANG = 'en-US'
