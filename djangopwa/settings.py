@@ -168,7 +168,7 @@ PWA_APP_START_URL = '/'
 PWA_APP_STATUS_BAR_COLOR = 'default'
 PWA_APP_ICONS = [
     {
-        'src': 'static/images/camera.png',
+        'src': 'static/images/splash.jpg',
         'sizes': '160x160'
     }
 ]
